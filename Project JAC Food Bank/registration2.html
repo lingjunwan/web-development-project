@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JAC Online Shop Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="non-empty.js" async></script>
+    </head>
+    <header class= "top-header">
+        <!-- <h1> <img class="header-image" src="Images/logo-1.png">JAC Online Food Bank</h1> -->
+        <h1> JAC Online Food Bank</h1>
+        <nav class="nav top-nav">
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="registration2.html">REGISTER</a></li>
+                <li><a href="signin2.html">SIGN IN</a></li>    
+                <li><a href="ContactUs.html">CONTACT US</a></li>
+                <li><a href="whatsnew.html">WHAT'S NEW</a></li>
+            </ul>    
+        </nav>      
+    </header>
+
+        
+        <div class="news-background reg-background">
+            <form class="container " onsubmit="return validateForm()" name="form">
+                <h1 class="registration">Registration</h1>
+                <tr>
+                    <td class="reg-field-name"> Username</td>
+                    <td> <input class="reg-input" type="edit" name="user" id="user" maxlength="50"
+                            placeholder="Between 1 and 20 characters, cannot be only numbers"></td>
+                    <span id="missing-user" style="color:red"> </span> <br><br>
+                </tr>
+    
+                <tr>
+                    <td><br /></td>
+                </tr>
+    
+                <tr>
+                    <td class="reg-field-name"> First Name</td>
+                    <td> <input class="reg-input" type="edit" name="fname" id="fname" maxlength="50"
+                            placeholder="Between 1 and 20 characters, letters only"></td>
+                    <span id="missing-fname" style="color:red"> </span> <br><br>
+                </tr>
+    
+                <tr>
+                    <td><br /></td>
+                </tr>
+    
+                <tr>
+                    <td class="reg-field-name"> Last Name</td>
+                    <td> <input class="reg-input" type="edit" name="lname" id="lname" maxlength="50"
+                            placeholder="Between 1 and 20 characters, letters only"></td>
+                    <span id="missing-lname" style="color:red"> </span> <br><br>
+                </tr>
+    
+                <tr>
+                    <td><br /></td>
+                </tr>
+    
+                <tr>
+                    <td class="reg-field-name"> Email Address</td>
+                    <td> <input class="reg-input" type="edit" name="email" id="email" maxlength="50"
+                            placeholder="Enter a valid email address"></td>
+                    <span id="missing-email" style="color:red"> </span> <br><br>
+                </tr>
+    
+                <tr>
+                    <td><br /></td>
+                </tr>
+    
+                <tr>
+                    <td class="reg-field-name"> Set a Password</td>
+                    <td> <input class="reg-input" type="Password" name="pass" id="pass" minlength="" maxlength="20"
+                            placeholder="Enter a Password">
+                    </td>
+                    <span id="missing-pass" style="color:red"> </span>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pass-requirement">letters and numbers only <br />between 8 and 20 characters with at
+                            least: <br />1 lowercase letter <br />1 uppercase letter <br />1 number</p>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td class="reg-field-name"> Re-type Password</td>
+                    <td> <input class="reg-input" type="Password" name="conf-pass" id="conf-pass" minlength="" maxlength="20"
+                            placeholder="Make sure it matches the password entered above."></td>
+                    <span id="missing-conf-pass" style="color:red"> </span> <br><br>
+                </tr>
+             
+    
+                <tr>
+                    <td> </td>
+                    <td><input type="Submit" name="Submit" id="submit" value="REGISTER">
+                        <span id="success"> </span> <br><br>
+    
+    
+                    </td>
+    
+                </tr>
+    
+            </form>
+        </div>
+
+    
+    
+    <footer class="main-footer">
+        <div class="footer-container main-footer-container">
+            <h1>Food bank delivery service</h1>
+                   <div class="footer-container-link nav">        
+                    <a href="https://www.instagram.com/jacpantry/?hl=en"><img alt="Instagram" src="Images/insta3.png"></a>
+                    <a href="https://www.facebook.com/johnabbottpantry/"><img alt="Facebook" src="images/Facebook Logo.png"></a>
+                   </div> 
+        </div>           
+    </footer>
+</html>

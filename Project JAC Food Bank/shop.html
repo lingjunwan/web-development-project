@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>SHOP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="non-empty.js" async></script>
+</head>
+<header class="top-header">
+    <h1>JAC Online Food Bank</h1>
+    <nav class="nav top-nav">
+        <ul>
+            <li><a href="Home_sign_in.html">HOME</a></li>
+            <!-- <li><a href="">REGISTER</a></li> -->
+            <li><a href="Home.html">SIGN OUT</a></li>  
+            <li><a href="shop.html">STORE</a></li>  
+            <li><a href="contactUs_signed_in.html">CONTACT US</a></li>
+            <li><a href="whatsnew_signed_in.html">WHAT'S NEW</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="Shop-background">
+    
+    <div id="shop-container-right">
+    <div id="shop-container-top">
+        <h1>Food Items</h1>
+        <table id="food-table">
+            <tr>
+                <th></th>
+                <th>Quantity</th>
+            </tr>
+            <tr class="shop-row">
+                <!-- <td><img alt="Milk" src="Images/milk.png"></td> -->
+                <td class="shop-item-name">1L Milk Container</td>
+                <td><input class="shop-quanity" id="n1" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+            <tr class="shop-row">
+                <!-- <td> <img alt="Eggs" src="Images/egg.jpg"></td> -->
+                <td class="shop-item-name">Tray of 12 Eggs</td>
+                <td><input class="shop-quanity" id="n2" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+            <tr class="shop-row">
+                <td class="shop-item-name">Canned black beans</td>
+                <td><input class="shop-quanity" id="n3" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+            <tr class="shop-row">
+                <td class="shop-item-name">Pasta</td>
+                <td><input class="shop-quanity" id="n4" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+            <tr class="shop-row">
+                <td class="shop-item-name">Canned Chickpeas</td>
+                <td><input class="shop-quanity" id="n5" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+            <tr class="shop-row">
+                <td  class="shop-item-name">Bread</td>
+                <td><input class="shop-quanity" id="n6" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+        </table>
+    </div>
+    <div id="shop-container-bottom">
+        <h1>House Hold Items</h1>
+        <table id="items-table">
+            <tr>
+                <th></th>
+                <th>Quantity</th>
+            </tr>
+            <tr class="shop-row">
+                <td class="shop-item-name">Detergent</td>
+                <td><input class="shop-quanity" id="n7" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+            <tr class="shop-row">
+                <td class="shop-item-name">Dish Soap</td>
+                <td><input class="shop-quanity" id="n8" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+
+            </tr>
+            <tr class="shop-row">
+                <td class="shop-item-name">Paper Towels</td>
+                <td><input class="shop-quanity" id="n9" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+            <tr class="shop-row">
+                <td class="shop-item-name">Bathroom Tissue</td>
+                <td><input class="shop-quanity" id="n10" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+            <tr class="shop-row">
+                <td class="shop-item-name">Sanitation Pads</td>
+                <td><input class="shop-quanity" id="n11" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+            <tr class="shop-row">
+                <td class="shop-item-name">Body Wipes</td>
+                <td><input class="shop-quanity" id="n12" type="number" value="1"></td>
+                <td><button class="btn btn-primary shop-item-button" type="button">ADD To Cart</button></td>
+            </tr>
+        </table>
+       <!-- <div id="button-order" ><input id="button" name="order"  type="button" onclick= "shop()" value="Order">
+       </div>  -->
+    </div>
+    </div>
+
+    <div id="shop-container-left">
+        <h1><img alt="Shoping Cart" src="Images/cart-icon.png"></h1>
+        <h1>Order Summary</h1>
+        
+
+            <div class="cart-row">
+                <span class="cart-item"> Items</span>
+                <span class="cart-quantity-h">Quanity</span>
+            </div>
+            
+            <div class="cart-items">
+             
+            </div>
+
+            
+        <div class="button-cart" >
+            <form action="thankyou.html">
+                <input id="button2" name="submit"  type="submit"  value="Submit Order"> 
+            </form>
+            
+        </div> 
+        <!-- <div id="order-confirm">
+           <div id="pick-up"></div>
+           <div id="delivery"></div>     
+        </div> -->
+        <div class="button-cart"  ><input id="button3" name="reset"  type="button " onclick= "reset()" value="Reset Cart">
+        </div> 
+    </div>
+    
+    
+    
+</div>
+<footer class="main-footer">
+    <div class="footer-container main-footer-container">
+        <h1>Food bank delivery service</h1>
+               <div class="footer-container-link nav">        
+                <a href="https://www.instagram.com/jacpantry/?hl=en"><img alt="Instagram" src="Images/insta3.png"></a>
+                <a href="https://www.facebook.com/johnabbottpantry/"><img alt="Facebook" src="images/Facebook Logo.png"></a>
+               </div> 
+    </div>           
+</footer>
+</html>

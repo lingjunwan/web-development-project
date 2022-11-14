@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JAC Online Shop Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="non-empty.js"></script>
+    </head>
+    <header class= "top-header">
+        <!-- <h1> <img class="header-image" src="Images/logo-1.png">JAC Online Food Bank</h1> -->
+        <h1> JAC Online Food Bank</h1>
+        <nav class="nav top-nav">
+            <ul>
+                <li><a href="Home.html">HOME</a></li>
+                <li><a href="registration2.html">REGISTER</a></li>
+                <li><a href="signin2.html">SIGN IN</a></li>    
+                <li><a href="ContactUs.html">CONTACT US</a></li>
+                <li><a href="whatsnew.html">WHAT'S NEW</a></li>
+            </ul>    
+        </nav>      
+    </header>
+
+    <div class="signin-background">
+        <section class="section-signinform">
+            
+			<h3 class="section-signinheader"><img src="Images/sigin.png" alt="signin" width="35" height="35"> Sign in</h3>
+
+			<form action="Home_sign_in.html" id="signin" method="post">
+			
+			<table>
+				<tr>
+					<font size=4 face="Arial" color="white">Username </font>
+					<input id="user" name="user" type="text" placeholder="Enter your username..." size="30" maxlength="30" value=""><br/>
+					<div id = "message1"><br/></div>
+				</tr>
+				<tr></tr>
+				<tr>
+					<font size=4 face="Arial" color="white">Password &nbsp;</font>
+					<input id="pass" name="pass" type="password" placeholder="Enter your password..." size="30" maxlength="30" value=""><br/>
+					<div id = "message2"></div>
+					<div id = "message3"></div>
+				</tr>
+				<tr>
+				<div id = "button"><input type="button" value="Sign in" onclick="checksign()"></div>
+				<p><a href="registration2.html">New user?</a></p>
+				</tr>
+			
+			</table>	
+			
+		</form>
+        </section>
+    </div>
+    
+
+    <footer class="main-footer">
+        <div class="footer-container main-footer-container">
+            <h1>Food bank delivery service</h1>
+                   <div class="footer-container-link nav">        
+                    <a href="https://www.instagram.com/jacpantry/?hl=en"><img alt="Instagram" src="Images/insta3.png"></a>
+                    <a href="https://www.facebook.com/johnabbottpantry/"><img alt="Facebook" src="images/Facebook Logo.png"></a>
+                   </div> 
+        </div>           
+    </footer>
+</html>
