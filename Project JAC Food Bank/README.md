@@ -21,6 +21,7 @@ Have a News and Events page.
 
 
 •Design
+
 Homepage: Main landing page with menus linked to different sections of the website.
 Add social media links to every page using footer in our design layout.
 Different CSS selectors will be used to finalize the look and feel of the project.
