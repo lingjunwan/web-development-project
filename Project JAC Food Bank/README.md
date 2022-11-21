@@ -3,7 +3,7 @@
 Project: JAC Food Bank
 
 
-•User story: As a user,I would like to be able to place the order online and have the option to either pick up the order or have it delivered to me.
+•User story: As a user, I would like to be able to place the order online and have the option to either pick up the order or have it delivered to me.
 
 
 •Solution: Create a website with online shopping capabilities for John Abbott College Food Bank.
